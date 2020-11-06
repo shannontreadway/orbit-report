@@ -6,10 +6,10 @@ export class Satellite {
     launchDate: string;
 
     constructor(name: string, type: string, launchDate: string, orbitType: string, operational: boolean) {
-        name: name;
-        type: type;
-        launchDate: launchDate;
-        orbitType: orbitType;
-        operational: operational;
+        this.name = name;
+        this.type = type;
+        this.launchDate = launchDate;
+        this.orbitType = orbitType;
+        this.operational = operational;
     }
 }
