@@ -11,7 +11,7 @@
     <!-- TODO: put <tr *ngFor=""></tr> here -->
     <tr *ngFor = "let Satellite of satellites">
         <td>{{Satellite.name}}</td>
-        <td>{{Satellite.type}}</td>
+        <td [class.warning] = "warning">{{Satellite.type}}</td>
         <td>{{Satellite.operational}}</td>
         <td>{{Satellite.type}}</td>
         <td>{{Satellite.launchDate}}</td>
