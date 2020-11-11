@@ -4,7 +4,8 @@
 }
 
 .warning {
-    background-color: #da8a8a;
+    background-color: red;
+    color: white;
 }
 
 table {
@@ -13,7 +14,7 @@ table {
   overflow: hidden;
   margin: 12px 0;
   min-width: 300px;
-  background: #76faff;
+  background: darkslateblue;
 }
 
 
@@ -25,14 +26,14 @@ th, td {
 }
 
 tr:nth-child(even) {
-    background-color: #76faff;
+    background-color: lightcyan;
 }
 
 tr:nth-child(odd) {
-    background-color: #f2f2f2;
+    background-color: cornflowerblue;
   }
 
  tr.header-row {
-    background-color: #364096;
+    background-color: darkslateblue;
     color: #fff
 }
