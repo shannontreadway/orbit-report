@@ -1,1 +1,11 @@
-<app-orbit-list [satellites]="sourceList"></app-orbit-list>
+<!-- Commented out per 8.8 for line 4 to work properly.
+<app-orbit-list [satellites]="sourceList"></app-orbit-list> -->
+
+<app-orbit-list [satellites]="displayList"></app-orbit-list>
+
+<div class='search-form'>
+    <input #searchTerm (keyup.enter) = "search(searchTerm.value)"/>
+    <button (click) = "search(searchTerm.value)">Search</button>
+</div>
+
+<app-orbit-counts [satellites]="displayList"></app-orbit-counts>

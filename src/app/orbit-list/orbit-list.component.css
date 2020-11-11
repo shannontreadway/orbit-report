@@ -16,13 +16,23 @@ table {
   background: #76faff;
 }
 
-.header-row {
-    background: #364096;
-    color: #fff
-}
+
 
 th, td {
     text-align: left;
     margin: 5px 10px;
     padding: 6px;
+}
+
+tr:nth-child(even) {
+    background-color: #76faff;
+}
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+
+ tr.header-row {
+    background-color: #364096;
+    color: #fff
 }
